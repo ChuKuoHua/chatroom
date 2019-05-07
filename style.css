@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(225, 240, 252);
+}
+
+nav{
+    margin-top:25px;
+}
+
+h1{
+    margin-bottom: .8em;
+}
+
+section{
+    padding-bottom: 20px;
+}
+
+.bg{
+    background-color: rgb(208, 223, 255);
+    padding-top: 2em;
+}
+
+.si-bg{
+    background-color: rgb(230, 179, 172);
+    padding-top: 2em;
+}
+
+#bm{
+    margin-top:2em;
+}
+#sig{
+    margin-top: 2.5em;
+}

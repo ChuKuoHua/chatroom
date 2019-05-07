@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(226, 237, 247);
+}
+
+#main{
+    background-color: rgb(156, 198, 238);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 2em;
+}
+
+#output{
+    background-color: aliceblue;
+    margin-bottom: 2em;
+    height: 20em;
+    overflow: scroll;
+}
+
+#se{
+    margin-top:2.8em; 
+    padding-bottom: 5px; 
+}
+
+#lgot{
+    margin-bottom:8em; 
+}
