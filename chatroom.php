@@ -28,7 +28,6 @@
         echo $_SESSION['userUid'];
     } ?> - Welcome Chat
     </div>
-
     <div id="output">
         <?php
         $sql = "SELECT * FROM messages";
@@ -43,23 +42,18 @@
         }
         mysqli_close($conn);
         ?>
-
     </div>
-
-    <div  id="lgot">
-        
+    <div  id="lgot">        
             <form action="include/send.inc.php" method="post">
                 <textarea name="msg" class="form-control border border-dark float-left col-md-10" cols="10" rows="2" placeholder="輸入文字.."></textarea>
-                <button type="submit" class="col-md-2 float-right " name="send"> <i class="far fa-paper-plane"></i> </button>
-                    
+                <button type="submit" class="col-md-2 float-right " name="send"> <i class="far fa-paper-plane"></i> </button>                    
             </form>
-    </div>
+    </div>    
     <div >
         <form action="include/logout.inc.php" method="post">
-        <button  class="btn btn-outline-danger col-12"  type="submit" name="logout">Logout</button>
-        
+        <button  class="btn btn-outline-danger col-12"  type="submit" name="logout">Logout</button>        
         </form>
-    </div>
+    </div>    
 </div>
 </body>
 </html>
