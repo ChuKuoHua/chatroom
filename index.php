@@ -19,9 +19,9 @@
 <body>
     <nav>
         <div class="text-center container col-md-3">
-        <h1 class="font-weight-bolder">Welcome</h1>
-        <section class="bg rounded">               
-            <form action="include/login.inc.php" method="post">
+            <h1 class="font-weight-bolder">Welcome</h1>
+            <section class="bg rounded">               
+                <form action="include/login.inc.php" method="post">
                     <div class="form-group col-md-12">                    
                         <input type="text" class="form-control" name="mailuid" placeholder="Username/E-mail..">
                     </div>
@@ -31,9 +31,9 @@
                     <div class="form-group col-md-12" id="bm">
                         <button  class="btn btn-outline-info col-6"  type="submit" name="login">Login</button>
                     </div>   
-            </form>
-</section>
-        </div>
+                </form>
+            </section>
+       </div>
     </nav>
     <hr class="my-4">
     <div class="text-center container col-md-3" id="sig">
