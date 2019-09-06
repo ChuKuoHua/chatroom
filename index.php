@@ -37,7 +37,7 @@
     </nav>
     <hr class="my-4">
     <div class="text-center container col-md-3" id="sig">
-    <h1 class="font-weight-bolder">Sign up</h1>
+        <h1 class="font-weight-bolder">Sign up</h1>
         <section class="si-bg rounded">
             
             <?php
@@ -54,19 +54,19 @@
             <?php endif ?>
             <form  class="form-group nav justify-content-center" action="include/signup.inc.php" method="post">
                 <div class="form-group col-md-12">
-                <input class="form-control" type="text" name="uid" placeholder="Username">
+                    <input class="form-control" type="text" name="uid" placeholder="Username">
                 </div>
                 <div class="form-group col-md-12">
-                <input class="form-control" type="text" name="mail" placeholder="E-mail">
+                    <input class="form-control" type="text" name="mail" placeholder="E-mail">
                 </div>
                 <div class="form-group col-md-12">
-                <input class="form-control" type="password" name="pwd" placeholder="Password">
+                    <input class="form-control" type="password" name="pwd" placeholder="Password">
                 </div>
                 <div class="form-group col-md-12">
-                <input class="form-control" type="password" name="pwd-repeat" placeholder="Repeat password">
+                    <input class="form-control" type="password" name="pwd-repeat" placeholder="Repeat password">
                 </div>
                 <div class="form-group col-md-12">
-                <button class="btn btn-warning col-6" type="submit" name="signup">Signup</button>
+                    <button class="btn btn-warning col-6" type="submit" name="signup">Signup</button>
                 </div>
             </form>
         </section>
